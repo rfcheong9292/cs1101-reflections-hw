@@ -34,9 +34,7 @@ insertion_sort_cmp(xs, (x, y) => x % 2 === 0 && y % 2 === 0
                                ? x <= y
                                : x % 2 === 1 && y % 2 === 1
                                ? x >= y
-                               : x % 2 === 0 && y % 2 === 1
-                               ? true
-                               : false);
+                               : x % 2 === 0 && y % 2 === 1);
 // Result: list(2, 4, 6, 6, 8, 9, 7, 5, 3, 1)
 
 //qn 2 a
@@ -44,4 +42,4 @@ insertion_sort_cmp(xs, (x, y) => x % 2 === 0 && y % 2 === 0
 Omega (n^2)
 b
 n^2
-
+*/
